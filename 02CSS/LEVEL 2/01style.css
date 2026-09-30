@@ -1,0 +1,17 @@
+/* *{
+    font-family: Arial;
+    background-color: blueviolet;
+} */
+ h1,h3{
+    color: #f52936;
+ }
+#login{
+    background-color: blueviolet;
+}
+#signup{
+    background-color: #f52936;
+    color: white;
+}
+.upvote{
+    background-color: green;
+}
