@@ -15,3 +15,13 @@
 .upvote{
     background-color: green;
 }
+
+/* descendant selector */
+.post a{
+    color: purple;
+    background-color: yellow ;
+    
+}
+nav ul li a{
+color: rgb(253, 6, 179);
+}
