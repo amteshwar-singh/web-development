@@ -2,26 +2,95 @@
     font-family: Arial;
     background-color: blueviolet;
 } */
- h1,h3{
+h1,
+h3 {
     color: #f52936;
- }
-#login{
+}
+
+#login {
     background-color: blueviolet;
 }
-#signup{
+
+#signup {
     background-color: #f52936;
     color: white;
 }
-.upvote{
+
+.upvote {
     background-color: green;
 }
 
 /* descendant selector */
-.post a{
+.post a {
     color: purple;
-    background-color: yellow ;
-    
+    background-color: yellow;
+
 }
-nav ul li a{
-color: rgb(253, 6, 179);
+
+nav ul li a {
+    color: rgb(253, 6, 179);
+}
+
+/* adjacent sibling combinator */
+p+h3 {
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color: rgb(151, 151, 228) ;
+    color: blue;
+}
+/* child combinator */
+/* like span>button */
+/* direct descendant of the element */
+
+
+/* attribute selector */
+input[type="text"]{
+    color:rgb(124, 190, 237);
+}
+input[type="password"]{
+    color: blueviolet;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+div[id="myId"] p{
+    color: green;
+}
+ /* same as #myId p { color: green;} */
+
+ /* pseudo class */
+ button:hover{
+    background-color: black;
+    color: white;
+ }
+ h3:hover{
+    text-decoration: none;
+ }
+ button:active{
+    background-color: pink;
+    color: black;
+ }
+ p:active{
+    font-weight: bold;
+    color: green;
+ }
+ input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2){
+    background-color: blanchedalmond;
+}
+
+/* pseudo elements */
+h1::first-letter{
+    color: green;
+}
+#myId::first-line{
+    color: #f52936;
+}
+#myId::selection{
+    background-color: rgb(199, 192, 58);
 }
