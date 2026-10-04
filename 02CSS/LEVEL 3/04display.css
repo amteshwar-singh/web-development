@@ -1,0 +1,9 @@
+span{
+    /* background-color: greenyellow; */
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    /*  height and width didnt apply but padding get applied */
+    padding: 50px;
+    margin: 20px;
+}
