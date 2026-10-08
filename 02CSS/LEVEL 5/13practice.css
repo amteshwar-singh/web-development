@@ -1,0 +1,17 @@
+#container{
+    height: 50px;
+    width: 900px;
+    border:2px solid cyan;
+    background-color: pink;
+    display: flex;
+    border-radius: 10px;
+    /* align-content: center; */
+    justify-content: flex-start;
+}
+#container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 50px;
+}
