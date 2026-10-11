@@ -1,0 +1,90 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: yellowgreen;
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    margin: 10px;
+}
+
+.box1 {
+    background-color: blueviolet;
+    height: 100px;
+    width: 300px;
+    animation-name: colorAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    margin: 10px;
+}
+.box2 {
+    background-color: red;
+    height: 100px;
+    width: 300px;
+    /* animation-name: width;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal; */
+    animation:width 2s ease-in 0s 3 normal;
+    margin: 10px;
+}
+.box3{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 300px;
+    animation:backgroundd 2s ease-in 0s 3 normal;
+    margin: 10px;
+}
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimation {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: cadetblue;
+    }
+}
+@keyframes width {
+from{
+    width: 10px;
+    background-color: green;
+}
+to{
+    width: 400px;
+    border-radius: 15px;
+    background-color: blue;
+}
+}
+/* percentage in animations */
+@keyframes backgroundd {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: brown;
+    }
+    100%{
+        background-color: blue;
+    }
+}
