@@ -1,28 +1,33 @@
-body{
-    
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-  background-color: black;
-  color: white;
-  overflow: hidden;
+body {
+
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
 }
-.main{
+
+.main {
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
-.sidebar{
+
+.sidebar {
     width: 340px;
     border-radius: 1rem;
     background-color: black;
 }
-.main-content{
+
+.main-content {
     background-color: blue;
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
-    background-color: rgb(18 18 18 );
+    background-color: rgb(18 18 18);
 }
-.music-player{
+
+.music-player {
     background-color: yellow;
     position: fixed;
     bottom: 0px;
@@ -30,12 +35,14 @@ body{
     height: 75px;
     background-color: black;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.nav{
-    background-color: rgb(18 18 18 );
+
+.nav {
+    background-color: rgb(18 18 18);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -43,18 +50,69 @@ a{
     height: 100px;
     padding: 0.5rem 0.75rem;
 }
-.nav-option{
+
+.nav-option {
     line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
 }
-.nav-option i{
+
+.nav-option i {
     font-size: 1.25rem;
 }
-.nav-option a{
+
+.nav-option a {
     font-family: 1rem;
     margin-left: 1rem;
 }
-.nav-option:hover{
+
+.nav-option:hover {
+    opacity: 1;
+}
+
+.library {
+    border-radius: 1rem;
+    background-color: rgb(18 18 18);
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.lib-option {
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+
+
+}
+
+.lib-option:hover {
+    opacity: 1;
+}
+
+.optionss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+    padding-right: 0.5rem;
+}
+
+.iconss {
+    font-size: 1.25rem;
+    display: flex;
+
+
+}
+
+.iconss i {
+    opacity: 0.75;
+    margin-right: 1rem;
+}
+.iconss i:hover{
     opacity: 1;
 }
