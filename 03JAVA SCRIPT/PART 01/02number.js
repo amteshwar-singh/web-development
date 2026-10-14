@@ -1,0 +1,18 @@
+a=16
+16
+console.log("hi")
+
+undefined
+console.log("hi");
+
+undefined
+c=true
+true
+typeof c
+'boolean'
+b=5
+5
+a+b
+21
+a=0.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1
