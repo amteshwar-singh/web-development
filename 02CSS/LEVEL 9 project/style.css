@@ -17,6 +17,7 @@ body {
     width: 340px;
     border-radius: 1rem;
     background-color: black;
+    margin-right: 0.5rem;
 }
 
 .main-content {
@@ -113,6 +114,37 @@ a {
     opacity: 0.75;
     margin-right: 1rem;
 }
-.iconss i:hover{
+
+.iconss i:hover {
     opacity: 1;
+}
+
+.box {
+    height: 8rem;
+    background-color: rgb(30 30 30);
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.5rem 1rem;
+
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+   
+}
+.box-p2 {
+    font-size: 0.85rem;
+
+}
+.badge{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem ;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rems;
+    width: fit-content;
 }
