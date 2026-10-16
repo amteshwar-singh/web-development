@@ -26,6 +26,7 @@ body {
     border-radius: 1rem;
     overflow: auto;
     background-color: rgb(18 18 18);
+    padding: 0 1.5rem;
 }
 
 .music-player {
@@ -147,4 +148,71 @@ a {
     margin-top: 0.5rem;
     height: 2rems;
     width: fit-content;
+}
+
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color:rgb(18 18 18) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+    z-index: 10;
+}
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    margin-right: 1rem ;
+}
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+    
+}
+.card{
+    background-color:rgb(30 30 30) ;
+    width: 150px;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+.footer{
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white ;
+    opacity: 0.4;
 }
