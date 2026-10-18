@@ -8,3 +8,6 @@ let str='5'
 // typeof str;
 // n==num
 // 4!=str
+// n==str
+//n===str
+// 'a'>'A'
