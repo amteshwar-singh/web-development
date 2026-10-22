@@ -16,6 +16,8 @@ let newMsg=msgg.trim().toUpperCase()
 console.log(newMsg)
 console.log(" ")
 console.log('slice method')
-let str5='i love gooning'
+let str5='iLoveGooning'
+console.log(str5.slice(5))
+console.log(str5.slice(1,4))
 
 
